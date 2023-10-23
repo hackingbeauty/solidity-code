@@ -7,18 +7,11 @@ marp: true
 A smart contract is blockchain-deployed code. For example:
 
 ```js
-contract Agreement {
-  address recipient;
-  bool conditionIsMet;
 
-  function payout() external {
-    if(conditionIsMet) {
-      sendValue(recipient);
-    }
-  }
-
-  // ...
+function functionName(<paramType> <paramName>) <visibility> <mutability> returns(<returnType>) {
+  // code
 }
+
 ```
 
 ---
